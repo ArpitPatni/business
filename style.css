@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+ }
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+ }
+ h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+ }
+
+
+.top{
+    background-color: #EAF6F6;   
+    padding-top: 100px;
+    position: relative; 
+}
+.middle{
+    background-color: white;   
+    
+}
+.bottom-container{
+    background-color: #66BFBF;  
+    height: auto;
+    width: auto;
+    padding: 50px;
+    color: black;
+
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+a{
+    color: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.design{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.facebook{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+hr{
+    border: dotted #66BFBF 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+.my-short-description{
+    margin: 50px auto 100px auto;
+    width: 50%;
+}
+
+.license{
+    color: #EAF6F6;
+}
+.footer-link{
+    margin-right: 50px;
+}
+.profilepic{
+    margin-top: 30px;
+}
+p{
+    line-height: 2;
+}
+
+.downbelow{
+    width: 50%;
+    margin: 20px auto 30px auto;
+}
+.button {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
